@@ -4,8 +4,8 @@ const {
   customers,
   revenue,
   users,
-} = require('data.js');
-const bcrypt = require('bcrypt');
+} = require('./data.js');
+const bcrypt = require('bcryptjs');
 
 async function seedUsers(client) {
   try {

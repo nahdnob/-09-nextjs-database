@@ -4,21 +4,24 @@
 Berikut adalah hasil deploy aplikasi Next.js Database ke platform Vercel:
 
 ![Hasil Deploy](./ss-soal-1.png)
+![Hasil Deploy](./ss-soal-2.png)
 
 ---
 
 ## Apa yang Saya Pelajari
 Pada tugas ini saya mempelajari:
 
-- Cara menggunakan starter code Next.js dari GitHub Template
-- Cara membuat repository baru menggunakan fitur **Use this template**
-- Cara menghubungkan akun GitHub dengan platform Vercel
-- Cara melakukan deployment aplikasi Next.js secara otomatis ke Vercel
-- Cara menjalankan Continuous Deployment dari GitHub ke Vercel
-- Cara mengelola project berbasis cloud tanpa konfigurasi server manual
-- Cara mengakses aplikasi yang telah di-deploy melalui URL publik
-
----
+Soal 1:
+    - Cara menggunakan starter code Next.js dari GitHub Template
+    - Cara membuat repository baru menggunakan fitur **Use this template**
+    - Cara menghubungkan akun GitHub dengan platform Vercel
+    - Cara melakukan deployment aplikasi Next.js secara otomatis ke Vercel
+    - Cara menjalankan Continuous Deployment dari GitHub ke Vercel
+    - Cara mengelola project berbasis cloud tanpa konfigurasi server manual
+    - Cara mengakses aplikasi yang telah di-deploy melalui URL publik
+Soal 2:
+    - Cara membuat basis data Postgres melalui **Vercel Marketplace**
+    - Cara menghubungkan database Postgres dengan project Next.js
 
 ## Error yang Ditemui dan Solusinya
 Selama pengerjaan tugas ini, terdapat beberapa kendala yang ditemui, antara lain:
@@ -38,3 +41,13 @@ Soal 1:
   
   **Solusi:**
   - Memberikan izin akses repository pada saat proses koneksi GitHub ke Vercel
+
+Soal 2:
+  **Penyebab:**
+  - Pada modul dijelaskan bahwa database Postgres dibuat melalui menu Storage,
+    namun pada versi terbaru Vercel menu tersebut sudah tidak tersedia.
+  
+  **Solusi:**
+  - Database Postgres dibuat melalui menu **Marketplace** sesuai dengan
+    pembaruan platform Vercel. Secara fungsi tetap sama dan terintegrasi
+    langsung dengan project.

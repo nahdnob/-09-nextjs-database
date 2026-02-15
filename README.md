@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# W09 – Next.js Database & Deployment (Vercel)
 
-## Getting Started
+## Hasil Tampilan
+Berikut adalah hasil deploy aplikasi Next.js Database ke platform Vercel:
 
-First, run the development server:
+![Hasil Deploy](./ss-soal-1.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Apa yang Saya Pelajari
+Pada tugas ini saya mempelajari:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Cara menggunakan starter code Next.js dari GitHub Template
+- Cara membuat repository baru menggunakan fitur **Use this template**
+- Cara menghubungkan akun GitHub dengan platform Vercel
+- Cara melakukan deployment aplikasi Next.js secara otomatis ke Vercel
+- Cara menjalankan Continuous Deployment dari GitHub ke Vercel
+- Cara mengelola project berbasis cloud tanpa konfigurasi server manual
+- Cara mengakses aplikasi yang telah di-deploy melalui URL publik
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## Error yang Ditemui dan Solusinya
+Selama pengerjaan tugas ini, terdapat beberapa kendala yang ditemui, antara lain:
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Soal 1:
+  ### 1. Project gagal deploy pada percobaan awal
+  **Penyebab:**
+  - Repository belum sepenuhnya tersinkron dengan Vercel
+  
+  **Solusi:**
+  - Melakukan deploy ulang melalui dashboard Vercel
+  - Memastikan branch utama (`main`) terpilih dengan benar
+  
+  ### 2. Repository tidak muncul saat impor ke Vercel
+  **Penyebab:**
+  - Akses GitHub ke Vercel belum diberikan
+  
+  **Solusi:**
+  - Memberikan izin akses repository pada saat proses koneksi GitHub ke Vercel

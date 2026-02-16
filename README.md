@@ -7,6 +7,7 @@ Berikut adalah hasil deploy aplikasi Next.js Database ke platform Vercel:
 ![Hasil Deploy](./ss-soal-2.png)
 ![Hasil Deploy](./ss-soal-3.png)
 ![Hasil Deploy](./ss-soal-4.png)
+![Hasil Deploy](./ss-soal-5.png)  
 
 ---
 
@@ -31,6 +32,11 @@ Soal 3:
 Soal 4:
     - Cara query pada postgres
     - Memastikan data sudah ter-seed ke dalam database di postgres
+Soal 5:
+    - Cara melakukan deployment aplikasi ke Vercel dan memantau hasilnya melalui dashboard 
+      Vercel.
+    - Memahami konsep async component pada Next.js yang memungkinkan penggunaan sintaks 
+      await untuk pengambilan data langsung di dalam komponen.
 
 ## Error yang Ditemui dan Solusinya
 Selama pengerjaan tugas ini, terdapat beberapa kendala yang ditemui, antara lain:

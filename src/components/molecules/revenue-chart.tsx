@@ -24,7 +24,7 @@ export default async function RevenueChart() {
                 Recent Revenue 
             </h2> 
             <div className="rounded-xl bg-gray-50 p-4"> 
-                <div className="mt-0 grid grid-cols-12 items-end gap-2 rounded-md bg-white p-4 sm:grid-cols-13 md:gap-4"> 
+                <div className="mt-0 flex items-end gap-4 rounded-md bg-white p-4 overflow-x-auto">
                     {/* y-axis */} 
                     <div 
                         className="mb-6 hidden flex-col justify-between text-sm text-gray-400 sm:flex" 
@@ -45,7 +45,7 @@ export default async function RevenueChart() {
                                 }} 
                             ></div> 
                             {/* x-axis */} 
-                            <p className="-rotate-90 text-sm text-gray 400 sm:rotate-0"> 
+                            <p className="-rotate-90 text-sm text-gray-400 sm:rotate-0"> 
                                 {month.month}
                             </p> 
                         </div> 

@@ -9,6 +9,7 @@ Berikut adalah hasil deploy aplikasi Next.js Database ke platform Vercel:
 ![Hasil Deploy](./ss-soal-4.png)
 ![Hasil Deploy](./ss-soal-5.png)
 ![Hasil Deploy](./ss-soal-6.png)
+![Hasil Deploy](./ss-soal-7.png)
 
 ---
 
@@ -40,6 +41,9 @@ Soal 5:
       await untuk pengambilan data langsung di dalam komponen.
 Soal 6:
     - Bagaimana menampilkan chart pada halaman dashboard
+Soal 7:
+    - Menampilkan 5 data yang telah disortir dari server, dan menambahkan gambar
+      ke dalam file public/customers/ supaya gambar tersedia dan tampil
 
 ## Error yang Ditemui dan Solusinya
 Selama pengerjaan tugas ini, terdapat beberapa kendala yang ditemui, antara lain:

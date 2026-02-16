@@ -24,7 +24,7 @@ export default async function RevenueChart() {
                 Recent Revenue 
             </h2> 
             <div className="rounded-xl bg-gray-50 p-4"> 
-                <div className="mt-0 flex items-end gap-4 rounded-md bg-white p-4 overflow-x-auto">
+                <div className="mt-0 flex items-end gap-4 rounded-md bg-white p-4 overflow-x-auto"> 
                     {/* y-axis */} 
                     <div 
                         className="mb-6 hidden flex-col justify-between text-sm text-gray-400 sm:flex" 
